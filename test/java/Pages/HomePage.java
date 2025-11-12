@@ -45,4 +45,5 @@ public class HomePage {
 		WebElement ordbtn=driver.findElement(By.xpath("//*[@id=\"orderModal\"]/div/div/div[3]/button[2]"));
 		ordbtn.click();
 	}
+	
 }
