@@ -23,6 +23,7 @@ lg.setUsername("Hasna");
 lg.setPassword("hasna123");
 lg.setLoginbtn();
 lg.selectProduct();
+lg.addcart();
 
 }
 @Test

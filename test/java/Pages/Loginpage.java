@@ -31,12 +31,19 @@ public void setLoginbtn() {
 	login.click();
 }
 public void selectProduct()
-{
-    WebElement lp=driver.findElement(By.linkText("Laptops"));
-    lp.click();
-    WebElement sony=driver.findElement(By.linkText("Sony vaio i5"));
-    sony.click();
+ {
+        //
+        WebElement lap=driver.findElement(By.linkText("Laptops"));
+        lap.click();
+        WebElement laps=driver.findElement(By.linkText("Sony vaio i5"));
+        laps.click();
+        WebElement disp=driver.findElement(By.xpath("//div[@id='more-information']"));
+        disp.isDisplayed();
+    }
+    public void addcart() {
+        WebElement addcrt=driver.findElement(By.xpath("//a[@onclick='addToCart(8)']"));
+        addcrt.click();
+    }
 
 }
 
-}
